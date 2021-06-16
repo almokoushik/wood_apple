@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Assignment</title>
+</head>
+<body>
+    <div>
+        <!-- Header -->
+       <div class="bg bg-light">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/nav_logo.svg" style="height: 60px; width: 300px;">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+            
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mt-3 mb-lg-0 w-100">
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        <h6>Products</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item ms-auto ">
+                                    <a class="nav-link" href="#">
+                                        <h6> Resources</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="#" tabindex="-1">
+                                        <h6>About</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="#" tabindex="-1">
+                                        <h6>Find a distributor</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="#" tabindex="-1">
+                                        <h6>Contact</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="#" tabindex="-1">
+                                        <h6>Support</h6>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown ms-auto">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        EN
+                                    </a>
+                                    <ul class="dropdown-menu ms-auto" aria-labelledby="navbarScrollingDropdown">
+                                        <li><a class="dropdown-item" href="#">
+                                                <h6>HN</h6>
+                                            </a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                <h6>EX</h6>
+                                            </a></li>
+                                    </ul>
+                                </li>
+            
+                                <li class="nav-item  ms-auto">
+                                    <form class="d-flex mx-3 my-1">
+                                        <button class="btn" href="#" id="navbtn"><i class="bi bi-search text-derk"></i></button>
+                                    </form>
+            
+                                </li>
+                                <li class="nav-item ms-auto">
+                                    <div class="" style="background-color:#38BF1B">
+                                        <a class="nav-link" href="#" tabindex="-1"><svg class="mx-2"
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                                class="bi bi-card-list" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                                                <path
+                                                    d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                                            </svg> <span class="me-2 text-white" style="font-family: 'Inter', sans-serif;">Request
+                                                Pricing</span> </a>
+                                    </div>
+                                </li>
+                            </ul>
+            
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            
+            <div class="row d-flex justify-content-center alight-items-center bg bg-light mt-3 pt-3">
+                <div class="col-md-6 col-sm-12">
+                    <img src="./images/pic.jpg" alt="" class="img img-fluid m-4 p-4 w-85" class="imgimg">
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex align-items-center">
+                    <div class="m-4 p-4">
+                        <h6 style="padding-bottom: 1px solid navy;">Resources>Article</h6>
+                        <h1 class="my-3">Hemispherical <br>Photography to Estimate <br>Leaf Area Index in Cotton </h1>
+                        <p>Learn More About Innovation</p>
+                        <p class="text-green-data">Read More</p>
+            
+                        <div class="mt-5 pt-5">
+                            <img src="./images/left-arrow.png" alt="" class="me-2"><img class="ms-2" src="./images/right-arrow.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <div class="row w-85 text-center m-3 p-3">
+           <h1>Latest Articles</h1>
+           <!-- After Header -->
+       </div>
+                <div class="row mx-auto d-flex justify-content-between align-items-center" style="width:92%">
+                   
+                    <div class="col-md-5 col-sm-12 my-2">
+                        <div class="w-92 mx-auto" >
+                        <div class="input-group input-group-lg" id="allarticle">
+                            <select id="inputState" class="form-select">
+                                <option selected>All Article</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                    </div>
+                    </div>
+                   
+                 <div class="col-md-5 col-sm-12 my-2">
+               <div class="w-92 mx-auto">
+                    <div class="input-group input-group-lg"id="searcharticle">
+                        <input  type="text" class="form-control" placeholder="Search Articles" aria-label="Recipient's username"
+                            aria-describedby="basic-addon2">
+                        <button class="btn" style="background-color: #38BF1B;"><span 
+                           <i class="bi bi-search text-white"></i>
+                        </span></button>
+                    </div>
+               </div>
+                    </div>
+        </div>
+
+        <!-- Main Content-1 -->
+        <div class="row mx-auto text-center my-3 py-3" style="width:92%">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col col-md-4" >
+                    <div class="card h-50" style="width:95%">
+                        <img src="./images/pic1.jpg" class="card-img-top" alt="..." id="imgimg">
+                        <div class="text-start my-3">
+                            <h6 class="card-title text-green">Correcting Misconceptions in Roostock Propagation</h6>
+                            <p class="card-text text-green-data">Feb 23, 2021  <br><b>PLANT SCIENCE</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="card h-50"style="width:95%">
+                        <img src="./images/Pic2.jpg" class="card-img-top " alt="...">
+                        <div class="text-start my-3">
+                            <h6 class="card-title">Studying Oak Response to Light Variablity in Forests with a Portable Laser Leaf  Area Meter</h6>
+                            <p class="card-text text-green-data">Feb 18,2021 <br><b>PLANT SCIENCE</b></p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="card h-50 " style="width:95%">
+                        <img src="./images/Pic3.jpg" class="card-img-top" alt="...">
+                        <div class=" text-start ms-none ps-none my-3">
+                            <h6 class="card-title">Productive Modeling in Forestry- Light Extinction, LAI, and the CI-110 Olant Canopy Imager</h6>
+                            <p class="card-text text-green-data">FEb 8,2021 <br><b>PLANT SCIENCE</b></p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Main Section 2 -->
+        <div class="row mx-auto text-center my-3 py-3" style="width:92%">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col col-md-4">
+                    <div class="card h-50" style="width:95%">
+                        <img src="./images/pic4.jpg" class="card-img-top" alt="...">
+                        <div class="text-start my-3">
+                            <h6 class="card-title text-green">Hemispherical Photography to Rstimate Leaf Area Index in Cotton</h6>
+                            <p class="card-text text-green-data">Jan 22, 2021 <br><b>PLANT SCIENCE</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="card h-50" style="width:95%">
+                        <img src="./images/Pic5.jpg" class="card-img-top " alt="...">
+                        <div class="text-start my-3">
+                            <h6 class="card-title">Minirhizotron as a Tool to Measure Root Turnover</h6>
+                            <p class="card-text text-green-data">Jan 14,2021 <br><b>PLANT SCIENCE</b></p>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="card h-50 " style="width:95%">
+                        <img src="./images/Pic6.jpg" class="card-img-top" alt="...">
+                        <div class=" text-start ms-none ps-none my-3">
+                            <h6 class="card-title">Measuring How Microclimate Affects Turmeric Yield</h6>
+                            <p class="card-text text-green-data">Dec 9, 2021 <br><b>PLANT SCIENCE</b></p>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- After MAin 2 -->
+        <div class="row text-center mx-auto d-flex justify-content-center align-items-center" style="border-radius: 10px; width:92%">
+        <div class="col col-md-4 col-sm-12 col-xs-12" >
+            <div class="input-group input-group-lg " style="background-color:#E1E1E1;" id="seeallarticle2">
+                <input type="text" class="form-control" placeholder="See All Article" aria-label="Recipient's username"
+                    aria-describedby="button-addon2" <span><button class="btn"><img src="./images/down-arrow.png"
+                        alt=""></button></span></input>
+            </div>
+        </div>
+            
+        </div>
+
+        <!-- Footer -->
+        <div style="background-color: #2E2E2E;">
+            <div class="row mx-auto mt-5 pt-5 mb-3 pb-3 d-flex justify-content-center align-items-center" style="width:92%">
+               <div class="col-md-4 col-sm-12 col-xs-12 text-white datadatadata">
+                   <div class="ms-5 pt-3 ps-4 pb-5" style="background-color: #4C4C4C;">
+                    <div class="text-start">                      
+                        <div>
+                            <h4>Our Next Event</h4>
+                            <hr style="width:53%; padding:1px ;color:#38BF1B"></hr>
+                        </div>
+                        <h6>[Webinar] Lorem ipsum dolor sit amet, consecteture adipisicing elit, sed do eiusmod</h6>
+                        <p>APril 6th @ 8.00 am PST</p>
+                        <button id="footerbutton1" class="btn btn-lg" style="float:right;background-color:#38BF1B">See All Events</button>                       
+                    </div>
+                   </div>
+               </div>
+
+               <div class="col-md-4 col-sm-12 col-xs-12 text-white">
+                <div class="ms-5 pt-3 ps-4 pb-5">
+                    <div class="text-start ms-4">
+                        <div>
+                            <h4>Links</h4>
+                            <hr style="width:50%; padding:1px ;color:#38BF1B">
+                            </hr>
+                        </div>                       
+                        <a id="footerlink1" href="#" style="text-decoration: none;" class="text-green-data">Instruments</a><br>
+                        <a id="footerlink2" href="#" style="text-decoration: none;" class="text-green-data">Resources</a><br>
+                        <a id="footerlink3" href="#" style="text-decoration: none;" class="text-green-data">About Us</a><br>
+                        <a id="footerlink4" href="#" style="text-decoration: none;" class="text-green-data">Support</a><br>
+                        <a id="footerlink5" href="#" style="text-decoration: none;" class="text-green-data">Distributors</a><br>
+                    </div>
+                </div>
+               </div>
+
+               <div class="col-md-4 col-sm-12 col-xs-12 text-white">
+                <div class="ms-5 pt-3 ps-4 pb-5">
+                    <div class="text-start">
+                        <div>
+                            <h4>Get Our Latest Insights</h4>
+                            
+                            </hr>
+                        </div>
+                        <form action="form-control" class=" mt-4 mb-3">
+                            <input type="text" class="form-control form-control-lg my-1" placeholder="First Name *">
+                            <input type="text" class="form-control form-control-lg my-1" placeholder="Email Address *">
+                        </form>
+                        <button id="footerbutton2" class="btn btn-lg" style="float:right;background-color:#38BF1B">Sign Up For Updates</button>
+                    </div>
+                </div>
+               </div>
+
+               
+            </div>
+
+            <div class="row mx-auto text-end mt-1 pt-1" style="width:92% ;color:#DED9D3">
+               <div class="col-md-8 col-sm-12 col-xs-12 row d-flex justify-content-start align-items-center my-4">
+               <div class="col-md-3 col-sm-12 col-xs-12">
+                    <i class="bi bi-telephone-fill mx-1"></i>360.833.8835
+                    
+               </div>
+               <div class="col-md-4 col-sm-12 col-xs-12">
+                <i class="bi bi-envelope mx-1"></i>sales@cid-inc.com
+               
+               </div>
+               <div class="col-md-5 col-sm-12 col-xs-12">
+                    <i class="bi bi-geo-alt-fill mx-1"></i>1554 NE 3rd Ave Camas, WA 98607
+               </div>
+
+               </div>
+               <div class="col-md-4 col-sm-12 col-xs-12 my-4">
+               <div class="d-flex justify-content-end align-items-center">
+           <a href="https://www.facebook.com/almokoushik" target="blank" class="text-decoration-none"  style="color:#4C4C4C"><i class="bi bi-facebook mx-3" style="font-size: 20px;"></i></a>
+            <a href="https://www.twitter.com/almokoushik" target="blank" class="text-decoration-none" style="color:#4C4C4C"> <i class="bi bi-twitter mx-3" style="font-size: 20px;"></i></a>
+            <a href="https://www.youtube.com/" class="text-decoration-none" target="blank" style="color:#4C4C4C"> <i class="bi bi-youtube mx-3" style="font-size: 20px;"></i></a>
+            <a href="https://www.linkedin.com/in/almokoushik/" class="text-decoration-none"target="blank" style="color:#4C4C4C"><i class="bi bi-linkedin mx-3" style="font-size: 20px;"></i></a></div>
+
+               </div>
+            </div>
+        </div>
+
+    </div>  
+    <!-- Scripting starts here -->
+    <script>
+        document.getElementById("navbtn").addEventListener('click',()=>{
+                alert("Search Button is Depreciated\nNeeds to be activated with proper data")
+            });
+    document.getElementById("allarticle").addEventListener('click', () => {
+        alert("Search Button is Depreciated\nNeeds to be activated with proper data")
+    });
+    document.getElementById("seeallarticle2").addEventListener('click', () => {
+            alert("Search Button is Depreciated\nNeeds to be activated with proper data")
+        });
+     document.getElementById("searcharticle").addEventListener('click', () => {
+            alert("Search Button is Depreciated\nNeeds to be activated with proper data")
+        });
+
+        document.getElementById("footerbutton1").addEventListener('click', () =>{
+            alert("This is Demo Only \nneed Databse or another page")
+        })
+        document.getElementById("footerbutton2").addEventListener('click', () => {
+                alert("This is Demo Only \nneed Databse or another page")
+            })
+        document.getElementById("footerlink1").addEventListener('click', () => {
+                alert("This is Demo Only \nneed Databse or another page")
+            })
+        document.getElementById("footerlink2").addEventListener('click', () => {
+                alert("This is Demo Only \nneed Databse or another page")
+            })
+        document.getElementById("footerlink3").addEventListener('click', () => {
+                alert("This is Demo Only \nneed Databse or another page")
+            })
+        document.getElementById("footerlink4").addEventListener('click', () => {
+                alert("This is Demo Only \nneed Databse or another page")
+            })
+        document.getElementById("footerlink5").addEventListener('click', () => {
+                alert("This is Demo Only \nneed Databse or another page")
+            })             
+            console.log("Script is Working")
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous">
+
+    </script>
+
+
+
+</body>
+</html>
